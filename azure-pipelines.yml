@@ -1,8 +1,8 @@
 trigger:
-- '*'
+- release-pipeline
 
 pool:
-  vmImage: 'ubuntu-20.04'
+  name: 'myagentpool'
   demands:
   - npm
 
