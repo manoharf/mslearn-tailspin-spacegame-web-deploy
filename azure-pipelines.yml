@@ -1,5 +1,5 @@
 trigger:
-- main
+- release-pipeline
 
 pool:
   name: 'myagentpool'
